@@ -1,2 +1,2 @@
 #!/bin/bash
-C#, c, Java, Perl > uniq -d | /n 
+cat 13-unique | sort | uniq -u | cut -c 
