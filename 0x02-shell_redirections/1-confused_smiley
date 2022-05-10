@@ -1,0 +1,2 @@
+#!/bin/bash
+printf ""( C-x 8 ^ o o )'" 
