@@ -1,2 +1,2 @@
 #!/bin/bash
-find . | ls -N | grep ^d | wc -l
+find . -mindepth 1 grep ^d wc -l
