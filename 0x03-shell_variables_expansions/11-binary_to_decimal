@@ -1,2 +1,2 @@
 #!/bin/bash
-BINARY=$((printf "%BINARY" 10))
+BINARY=(printf "%$BINARY" 10)
