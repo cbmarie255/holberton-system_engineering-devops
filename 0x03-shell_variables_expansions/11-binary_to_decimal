@@ -1,2 +1,2 @@
 #!/bin/bash
-echo obase="BINARY"; ibase=10;
+[2#]10=$BINARY
