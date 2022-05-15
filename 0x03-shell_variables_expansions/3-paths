@@ -1,2 +1,2 @@
 #!/bin/bash
-export $PATH | ls -l | wc -c
+ls -l | wc -c
