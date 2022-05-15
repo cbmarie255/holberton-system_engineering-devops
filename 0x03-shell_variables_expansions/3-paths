@@ -1,2 +1,2 @@
 #!/bin/bash
-$CDPATH | ls -l | wc -l
+export $PATH | ls -l | wc -c
