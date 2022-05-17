@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # This script will list the current directories while cutting some of the listing
-for manyfiles in . ; do ls | cut -d- -f2 ; done
+
+for manyfiles in * ; do echo "$manyfiles" | cut -d- -f2 ; done
