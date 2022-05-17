@@ -6,18 +6,18 @@ do
     if (($i % 3 != 0 && $i % 5 != 0))
     then
 	echo $i
-    fi
-	if (($i % 3 == 0 && $i % 5 == 0))
+    elif
+	(($i % 3 == 0 && $i % 5 == 0))
 	then
 	    echo "FizzBuzz"
-	fi
-	if (($i % 3 == 0 && $i % 5 != 0))
+    elif
+	(($i % 3 == 0 && $i % 5 != 0))
 	then
 	    echo "Fizz"
-	fi
-	if (($i % 5 == 0 && $i % 3 != 0))
+    elif
+	(($i % 5 == 0 && $i % 3 != 0))
 	then
 	    echo "Buzz"
 	fi
-    i=$((i+1))
-    done
+	i=$((i+1))
+done
