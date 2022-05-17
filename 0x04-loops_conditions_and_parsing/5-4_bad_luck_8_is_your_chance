@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script will print different phrases for different lines using the while loop with if statements
+i=3
+while [ $i -le 10 ]
+do
+	echo "Best School"
+	if [ $i = 5 ]
+	then
+	echo "bad luck"
+	fi
+	if [ $i = 8 ]
+	then
+	echo "good luck"
+	fi
+i=$((i + 1))
+done

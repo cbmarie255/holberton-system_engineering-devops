@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script will display a phrase 10 times, but will replace the 9th line with another phrase using the while loop
+i=1
+while [ $i -le 10 ]
+do
+    echo "Best School"
+    if [ $i = 9 ]
+    then
+	echo "Hi"
+    fi
+    i=$(( i + 1 ))
+done
