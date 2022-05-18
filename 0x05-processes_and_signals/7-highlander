@@ -6,6 +6,5 @@ while
 do
     echo "To infinity and beyond"
     sleep 2
-    if kill -15
-	then echo "I am invincible!!!"
+    trap 'echo "I am invincible!!!"' SIGTERM 
     done
