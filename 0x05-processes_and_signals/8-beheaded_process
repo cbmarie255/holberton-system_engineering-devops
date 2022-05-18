@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script will KILL the previous loop
 p=$(pgrep -f 7-highlander)
-kill -9 $p
+kill 9 $p
