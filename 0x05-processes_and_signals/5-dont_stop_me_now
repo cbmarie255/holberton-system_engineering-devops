@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 # This script will KILL the last :)
-loop=pgrep -f 4-to_infinity_and_beyond | kill -15 $loop
+
+# IM LOST BRUHHHHH!
+# I know i need:
+v=$(pgrep -f 4-to_infinity_and_beyond)
+kill -15 "$v"
