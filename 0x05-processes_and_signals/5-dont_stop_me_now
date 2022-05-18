@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # This script will KILL the last :)
-kill 0 | pgrep -f 4-to_infinity_and_beyond
+loop=pgrep -f 4-to_infinity_and_beyond | kill -15 $loop
