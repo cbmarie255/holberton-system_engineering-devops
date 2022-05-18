@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This will terminate 4-to_infinity_and_beyond using pkill
+v=$(pgrep -f 4-to_infinity_and_beyond)
+pkill --signal "$v"
