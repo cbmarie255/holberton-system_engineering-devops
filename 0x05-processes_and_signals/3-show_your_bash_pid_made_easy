@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script will show a simple PID with a user
+pgrep -l bash
