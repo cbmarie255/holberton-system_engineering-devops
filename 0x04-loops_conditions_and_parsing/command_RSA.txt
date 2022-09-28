@@ -1,0 +1,14 @@
+The key fingerprint is:
+SHA256:hweX+Z20RUs000A0n3U+ol77hL4UTkfpQvdUBWzLh4Q root@cdeef697c2b1
+The key's randomart image is:
++---[RSA 3072]----+
+|             =BBO|
+|           oE ==@|
+|        . +  *.X=|
+|         + .ooO=+|
+|        S o..=++.|
+|         o. + *  |
+|           . = . |
+|            o o  |
+|             o.. |
++----[SHA256]-----+
